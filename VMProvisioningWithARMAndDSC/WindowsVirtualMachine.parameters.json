@@ -1,12 +1,15 @@
 {
-    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-    "contentVersion": "1.0.0.0",
-    "parameters": {
-        "adminUsername": {
-            "value": null
-        },
-        "dnsNameForPublicIP": {
-            "value": null
-        }
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "pillaima"
+    },
+    "dnsNameForPublicIP": {
+      "value": "mageshpillaiarm"
+    },
+    "dscFileUrl": {
+      "value": "https://raw.githubusercontent.com/magesh-pillai/AzureResourcingBasicVMProvisioning/master/VMProvisioningWithARMAndDSC/DSC/ExtDsc.ps1"
     }
+  }
 }
