@@ -32,6 +32,7 @@
     <Content Include="WindowsVirtualMachine.json" />
     <Content Include="WindowsVirtualMachine.parameters.json" />
     <Content Include="DSC\ExtDsc.ps1" />
+    <None Include="DSC\ExtDsc.ps1.zip" />
   </ItemGroup>
   <Target Name="GetReferenceAssemblyPaths" />
 </Project>
