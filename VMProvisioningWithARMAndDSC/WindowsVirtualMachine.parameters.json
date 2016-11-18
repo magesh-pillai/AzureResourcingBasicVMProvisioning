@@ -9,7 +9,7 @@
       "value": "mageshpillaiarm"
     },
     "dscFileUrl": {
-      "value": "https://raw.githubusercontent.com/magesh-pillai/AzureResourcingBasicVMProvisioning/master/VMProvisioningWithARMAndDSC/DSC/ExtDsc.ps1"
+      "value": "https://raw.githubusercontent.com/magesh-pillai/AzureResourcingBasicVMProvisioning/master/VMProvisioningWithARMAndDSC/DSC/ExtDsc.ps1.zip"
     }
   }
 }
