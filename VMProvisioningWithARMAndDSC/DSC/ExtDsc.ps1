@@ -6,9 +6,9 @@ Configuration Main
     {
         File CreateFile 
 		{
-            DestinationPath = 'C:\Temp\Test.txt'
+            DestinationPath = "C:\Temp\Test.txt"
             Ensure = "Present"
-            Contents = 'Hello World!'
+            Contents = "Hello World!"
         }
 
         Log AfterDirectoryCopy
@@ -19,4 +19,3 @@ Configuration Main
         }
     }
 }
-
